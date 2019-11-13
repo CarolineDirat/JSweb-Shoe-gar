@@ -1,11 +1,14 @@
 const path = require('path');
 
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: {
     polyfill: "babel-polyfill", 
     blog: "./src/blog.js",
     app: "./src/functions.js"
+  },
+  devServer: {
+    contentBase: './dist',
   },
   output: {
     filename: "[name].bundle.js", 
@@ -26,7 +29,13 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: [
-          'file-loader',
+          'file-loader',  
+    	  {
+      	    loader: 'image-webpack-loader',
+      	    options: {
+        	  disable: true, // webpack@2.x and newer
+      	    },
+    	  },
         ],
       },
     ]

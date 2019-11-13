@@ -2,10 +2,10 @@
   "name": "jsweb-shoe-gar",
   "version": "1.0.0",
   "description": "luxury shoe website",
-  "main": "src/blog.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +15,9 @@
     "babel-loader": "^8.0.6",
     "babel-polyfill": "^6.26.0",
     "file-loader": "^4.2.0",
+    "image-webpack-loader": "^6.0.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }
