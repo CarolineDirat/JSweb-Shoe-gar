@@ -14,6 +14,6 @@ Lors de l'utilisation de la compilation automatique de votre code, des problème
 
 Pour désactiver cette fonctionnalité dans certains éditeurs courants, voir la liste ci-dessous:
 
-Sublime Text 3 : Ajoutez atomic_save: 'false' à vos préférences utilisateur.
-IDE JetBrains (par exemple, WebStorm) : Décochez la case "Utiliser une écriture sécurisée" dans Preferences > Appearance & Behavior > System Settings.
-Vim : Ajoutez :set backupcopy=yesà vos paramètres.
+- Sublime Text 3 : Ajoutez atomic_save: 'false' à vos préférences utilisateur.
+- IDE JetBrains (par exemple, WebStorm) : Décochez la case "Utiliser une écriture sécurisée" dans Preferences > Appearance & Behavior > System Settings.
+- Vim : Ajoutez :set backupcopy=yesà vos paramètres.
