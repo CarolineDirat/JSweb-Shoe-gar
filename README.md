@@ -1,11 +1,12 @@
 ## Code de projet de cours Open Classrooms ##
 Clonez ce repository et ajoutez-y webpack comme expliqué dans l'activité.
-
-===========================================================================================================================
+==========================================================================
 
 ## Note au correcteur ##
 
-La partie blog du site ne fonctionne pas (lorsque l'on clique sur "Ajouter un article"), car l'adresse de l'api "https://master-7rqtwti-fus3tltfddn7w.eu-2.platformsh.site" ne fonctionne plus (erreur 404).
+- La partie blog du site ne fonctionne pas (lorsque l'on clique sur "Ajouter un article"), car l'adresse de l'api "https://master-7rqtwti-fus3tltfddn7w.eu-2.platformsh.site" ne fonctionne plus (erreur 404).
+
+- Pour tester l'actualisation automatique du navigateur, vous pouvez modifier le message d'erreur dans blog.js du dossier src/ (ligne 10) et recliquer sur le bouton "Ajouter un article" pour constater la modification du message.
 
 Ajuster votre éditeur de texte
 ===============================

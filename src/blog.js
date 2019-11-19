@@ -7,7 +7,7 @@ loadButton.addEventListener('click', function(){
   if(!message){  
     const main = document.querySelector('main');
     const alert = document.createElement('p');
-    alert.innerHTML = "L'adresse de l'api 'https://master-7rqtwti-fus3tltfddn7w.eu-2.platformsh.site' ne fonctionne plus (erreur 404). <br/> C'est pour cela que le click sur le bouton 'Ajouter un article' ne fonctionne plus.";
+    alert.innerHTML = "L'adresse de l'api 'https://master-7rqtwti-fus3tltfddn7w.eu-2.platformsh.site' ne fonctionn plus (erreur 404). <br/> C'est pour cela que le click sur le bouton 'Ajouter un article' ne permet pas d'ajouter une article.";
     alert.classList.add('alert-danger', 'w-100', 'p-2');
     main.appendChild(alert);
   }
